@@ -11,9 +11,9 @@ results.data.forEach(row => {
       const tr = document.createElement('tr');
    tr.innerHTML = `
         <td>${row["Year"}</td>
-        <td>${row["Initial Assesments"]}</td>
-        <td>${row["Prevention"]}</td>
-        <td>${row["Prevention Duty"]}</td>
+        <td>${row["Initial assesments"]}</td>
+        <td>${row["Prevention or relief"]}</td>
+        <td>${row["Prevention duty"]}</td>
         <td>${row["Service Related Duty"]}</td
         <td>${row["Relief Duty"]}</td>
         <td>${row["Not Threatened"]}</td> 
