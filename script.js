@@ -7,7 +7,6 @@ skipEmptyLines: true,
 complete: function(results) {
 console.log("running");
 console.log(results.data);
-console.log("COLUMN NAMES:", Object.keys(results.data[0].map(k => JSON.stringify(k)));
 const tbody = document.querySelector('#dataTable tbody');
 
 results.data.forEach(row => {
