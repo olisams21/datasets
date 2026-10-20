@@ -10,13 +10,13 @@ results.data.forEach(row => {
  
       const tr = document.createElement('tr');
    tr.innerHTML = `
-        <td>${row.Time Period}</td>
-        <td>${row.Initial Assesments</td>
-        <td>${row.Prevention}</td>
-        <td>${row.Prevention Duty}</td>
-        <td>${row.Service Related Duty}</td
-        <td>${row.Relief Duty}</td>
-        <td>${row.Not Threatened}</td> 
+        <td>${row["Year"}</td>
+        <td>${row["Initial Assesments"]}</td>
+        <td>${row["Prevention"]}</td>
+        <td>${row["Prevention Duty"]}</td>
+        <td>${row["Service Related Duty"]}</td
+        <td>${row["Relief Duty"]}</td>
+        <td>${row["Not Threatened"]}</td> 
 
             tbody.appendChild(tr); 
     });
