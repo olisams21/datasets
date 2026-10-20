@@ -16,7 +16,7 @@ tr.innerHTML = `
 <td>${row["Year"]}</td>
 <td>${row["Initial assessments"]}</td>
 <td>${row["Prevention or relief"]}</td>
-<td>${row["Prevention Duty"]}</td>
+<td>${row["Prevention duty"]}</td>
 <td>${row["Service Related"]}</td>
 <td>${row["Relief Duty"]}</td>
 <td>${row["Not threatened"]}</td>`;
