@@ -16,7 +16,7 @@ results.data.forEach(row => {
         <td>${row["Prevention duty"]}</td>
         <td>${row["Service Related"]}</td>
         <td>${row["Relief Duty"]}</td>
-        <td>${row["Not threatened"]}</td> 
+        <td>${row["Not threatened"]}</td>`
 
             tbody.appendChild(tr); 
     });
