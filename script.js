@@ -11,12 +11,12 @@ results.data.forEach(row => {
       const tr = document.createElement('tr');
    tr.innerHTML = `
         <td>${row["Year"}</td>
-        <td>${row["Initial assesments"]}</td>
+        <td>${row["Initial assessments"]}</td>
         <td>${row["Prevention or relief"]}</td>
         <td>${row["Prevention duty"]}</td>
-        <td>${row["Service Related Duty"]}</td
+        <td>${row["Service Related"]}</td
         <td>${row["Relief Duty"]}</td>
-        <td>${row["Not Threatened"]}</td> 
+        <td>${row["Not threatened"]}</td> 
 
             tbody.appendChild(tr); 
     });
