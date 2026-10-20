@@ -1,6 +1,7 @@
 Papa.parse('homlessness.csv', {
 download: true,
 header: true,
+transformHeader: header => header.trim(), 
 skipEmptyLines: true,
 
 complete: function(results) {
